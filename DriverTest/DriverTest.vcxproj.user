@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>WindowsRemoteDebugger</DebuggerFlavor>
+    <RemoteDebuggerCommand>c:\remotetmp\DriverTest.exe</RemoteDebuggerCommand>
+    <RemoteDebuggerServerName>DESKTOP-F76MNAS:4024</RemoteDebuggerServerName>
+    <RemoteDebuggerConnection>RemoteWithoutAuthentication</RemoteDebuggerConnection>
+    <RemoteDebuggerDebuggerType>NativeOnly</RemoteDebuggerDebuggerType>
+    <RemoteDebuggerWorkingDirectory>c:\remotetmp</RemoteDebuggerWorkingDirectory>
+    <DeploymentDirectory>c:\remotetmp</DeploymentDirectory>
+  </PropertyGroup>
+</Project>
